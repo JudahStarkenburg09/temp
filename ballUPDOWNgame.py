@@ -27,8 +27,8 @@ obstacleColor = (255, 255, 254)
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Judah is weird")
 
-jump_strength = 20
-speed = 10  #speed of the ball
+jump_strength = 10
+speed = 6  #speed of the ball
 score = 0
 cx = 400
 cy = 200
@@ -36,7 +36,7 @@ vy = speed
 bR = 15 #ball radius
 font = pygame.font.Font(None, 30)
 collisions = False
-xs = 0
+xs = 0 
 y = 0
 fondo = pygame.image.load("space.jpg").convert()
 fondo = pygame.transform.scale(fondo, [800,700])
@@ -44,23 +44,73 @@ fondo = pygame.transform.scale(fondo, [800,700])
 obsTime = 75  # Time in milliseconds to spawn obstacles
 currentTick = 0
 obstacles = []
-ballSpeed = 8
+ballSpeed = 5
+
+def again():
+    global obsTime, currentTick, obstacles, ballSpeed, fps, obsSpeeds, obstacleColor, cx, cy, vy, bR, xs, y, first, failRoot, score_text, screen, collisions, score, font
+    obsTime = 75  # Time in milliseconds to spawn obstacles
+    currentTick = 0
+    obstacles = []
+    ballSpeed = 5
+    white = pygame.Color(255, 255, 255)
+    red = pygame.Color(255, 0 , 0)  
+    black = pygame.Color(0,0,0)
+    pink = pygame.Color(255, 0, 85)
+    yellow = pygame.Color(255,255,0)
+    fps = 60
+    clock=pygame.time.Clock()
+    score = 0
+    score_text = font.render(f"Score: {score}",True,(255,0,0))
+    screen.blit(score_text,(20,20)) 
+
+    pygame.display.flip()
+    pygame.display.update()
+
+    width = 800 
+    height = 700
+
+    obsSpeeds = [7, 12]
+    obstacleColor = (255, 255, 254)
+
+    screen = pygame.display.set_mode((width, height))
+    pygame.display.set_caption("Judah is weird")
+
+    jump_strength = 10
+    speed = 6  #speed of the ball
+    score = 0
+    cx = 400
+    cy = 200
+    vy = speed 
+    bR = 15 #ball radius
+    font = pygame.font.Font(None, 30)
+    collisions = False
+    xs = 0
+    y = 0
+    fondo = pygame.image.load("space.jpg").convert()
+    fondo = pygame.transform.scale(fondo, [800,700])
+    first == True
+    failRoot.destroy()
+    return
 
 
 def lose():
+    global failRoot
     def leave():
         exit()
     failRoot = tk.Tk()
     failRoot.title("You failed!")
-    failRoot.geometry('250x50')
+    failRoot.geometry('250x150')
     label = tk.Label(failRoot, text="You Died!")
     label.place(x=10,y=0)
     button = tk.Button(failRoot, text="Exit", command=leave)
     button.place(x=50,y=20)
-
+    button2 = tk.Button(failRoot, text="Again", command=again)
+    button2.place(x=50,y=50)
+    
     failRoot.mainloop()
+    return
 
-
+first = True
 while True:
     screen.fill(black)
     screen.blit(fondo,[0,0])
@@ -138,6 +188,10 @@ while True:
     score_text = font.render(f"Score: {score}",True,(255,0,0))
     screen.blit(score_text,(20,20)) 
 
-    time.sleep(0.01)
     pygame.display.flip()
     pygame.display.update()
+
+    if first == True:
+        time.sleep(3)
+        first = False
+    time.sleep(0.01)
