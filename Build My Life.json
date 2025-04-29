@@ -1,0 +1,22 @@
+{
+    "title": "Build My Life",
+    "parts": [
+        {
+            "name": "V1",
+            "lyrics": "Worthy of every song we could ever sing\nWorthy of all the praise we could ever bring\nWorthy of every breath we could ever breathe\nWe live for You, oh, we live for You"
+        },
+        {
+            "name": "V2",
+            "lyrics": "Jesus, the Name above every other name\nJesus, the only One who could ever save\nWorthy of every breath we could ever breathe\nWe live for You, we live for You"
+        },
+        {
+            "name": "C1",
+            "lyrics": "Holy, there is no one like You\nThere is none beside You\nOpen up my eyes in wonder\nAnd show me who You are\nAnd fill me with Your heart\nAnd lead me in Your love to those around me"
+        },
+        {
+            "name": "B",
+            "lyrics": "And I will build my life upon Your love\nIt is a firm foundation\nAnd I will put my trust in You alone\nAnd I will not be shaken"
+        }
+    ],
+    "arrangement": "V1, V2, C1, V1, V2, C1, C1, B, B, C1, B"
+}

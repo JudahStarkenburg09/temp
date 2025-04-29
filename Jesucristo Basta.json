@@ -1,0 +1,38 @@
+{
+    "title": "Jesucristo Basta",
+    "parts": [
+        {
+            "name": "V1",
+            "lyrics": "Nuestros corazones\nInsaciables son\nHasta que conocen\nA su salvador"
+        },
+        {
+            "name": "PC",
+            "lyrics": "Tal y como somos nos am\u00f3\nHoy nos acercamos sin temor"
+        },
+        {
+            "name": "C1(1)",
+            "lyrics": "\u00c9l es el agua que al beber\nNunca m\u00e1s tendremos sed\nJesucristo basta, Jesucristo basta"
+        },
+        {
+            "name": "C1(2)",
+            "lyrics": "Mi castigo recibi\u00f3\nY su herencia me entreg\u00f3\nJesucristo basta, Jesucristo basta"
+        },
+        {
+            "name": "V2",
+            "lyrics": "Fuimos alcanzados\nPor su gran amor\nCon brazos abiertos\nNos recibe hoy"
+        },
+        {
+            "name": "V3",
+            "lyrics": "Ahora hay un futuro\nY esperanza fiel\nEn su amor confiamos\nHay descanso en \u00e9l"
+        },
+        {
+            "name": "C2(1)",
+            "lyrics": "Y, \u00e9l es el agua que al beber\nNunca m\u00e1s tendremos sed\nJesucristo basta, Jesucristo basta"
+        },
+        {
+            "name": "C2(2)",
+            "lyrics": "Mi castigo recibi\u00f3\nY su herencia me entreg\u00f3\nJesucristo basta, Jesucristo basta\nJesucristo basta"
+        }
+    ],
+    "arrangement": "V1, PC, C1(1), C1(2), V2, PC, C1(1), C1(2), PC, PC, C2(1), C2(2), V3"
+}

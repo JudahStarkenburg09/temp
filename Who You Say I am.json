@@ -1,0 +1,30 @@
+{
+    "title": "Who You Say I am",
+    "parts": [
+        {
+            "name": "V1",
+            "lyrics": "Who am I that the highest King\nWould welcome me?\nI was lost, but He brought me in\nOh, His love for me\nOh, His love for me"
+        },
+        {
+            "name": "C1",
+            "lyrics": "Who the Son sets free\nOh, is free indeed\nI'm a child of God, yes, I am"
+        },
+        {
+            "name": "V2",
+            "lyrics": "Free at last, He has ransomed me\nHis grace runs deep\nWhile I was a slave to sin\nJesus died for me\nYes, He died for me"
+        },
+        {
+            "name": "C2",
+            "lyrics": "In my Father's house\nThere's a place for me\nI'm a child of God, yes, I am"
+        },
+        {
+            "name": "B",
+            "lyrics": "I am chosen, not forsaken\nI am who You say I am\nYou are for me, not against me\nI am who You say I am"
+        },
+        {
+            "name": "T",
+            "lyrics": "Oh I am who You say I am"
+        }
+    ],
+    "arrangement": "V1, C1, V2, C1, C2, B, B, T, C1, C2, C2"
+}

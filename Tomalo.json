@@ -1,0 +1,22 @@
+{
+    "title": "Tomalo",
+    "parts": [
+        {
+            "name": "V1",
+            "lyrics": "De todo lugar los perdidos vendr\u00e1n\nEn libertad a Ti clamar\u00e1n\nLlevaste la cruz moriste y vivo est\u00e1s\nMi Dios, a Ti mi vida Te dar\u00e9"
+        },
+        {
+            "name": "V2",
+            "lyrics": "Enviaste a Jes\u00fas por mi salvaci\u00f3n\nPor la eternidad en Ti tengo perd\u00f3n\nBusqu\u00e9 la verdad y te encontr\u00e9 a Ti\nMi Dios, a Ti mi vida Te dar\u00e9"
+        },
+        {
+            "name": "C1",
+            "lyrics": "Jes\u00fas, por ti yo vivir\u00e9\nDe ti nunca me avergonzar\u00e9\nTe doy todo lo que soy\nToma, t\u00f3malo, toma, t\u00f3malo"
+        },
+        {
+            "name": "B",
+            "lyrics": "Eres el que vista al ciego das\nBrillas en la oscuridad\nLa salvaci\u00f3n del mundo en tus manos est\u00e1"
+        }
+    ],
+    "arrangement": "V1, V2, C1, V2, C1, C1, B, B, C1, C1"
+}
